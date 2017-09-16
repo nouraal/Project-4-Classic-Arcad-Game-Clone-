@@ -95,8 +95,8 @@ Player.prototype.characterReset = function() {
 Player.prototype.update = function() {
     if (this.playerLives === 0) {
         // popup Message for game over useing alert.
-        alert("GAME OVER " + ".... Your score is " + player.playerScore);
-        reset();
+        alert("GAME OVER " + ".... Your score is " + this.playerScore);
+        this.reset();
     }
 };
 
