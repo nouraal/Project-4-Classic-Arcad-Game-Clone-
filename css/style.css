@@ -1,0 +1,25 @@
+body {
+  text-align: center;
+}
+
+.left {
+  font-family: OCR A, Extended;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  background-color: #b6390a;
+  margin: 250px 0 0 10px;
+  float: left;
+  clear: left;
+}
+
+.rule {
+  font-family: OCR A, Extended;
+  font-size: 11px;
+  text-align: center;
+  color: white;
+  background-color: #b6390a;
+  margin: 10px 0 0 10px;
+  float: left;
+  clear: left;
+}
