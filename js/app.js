@@ -155,7 +155,7 @@ var allEnemies = [];
 for (var e = 0; e < 3; e++) {
     //startSpeed is a random number from from 1 to 12
     var startSpeed = bugSpeed * Math.floor(Math.random() * 12 + 1);
-    allEnemies.push(new Enemy(-100 , 60 + (85 * e) , startSpeed));
+    allEnemies.push(new Enemy(-100 , 60 + (80 * e) , startSpeed));
     //+ (e * 50)
 }
 
