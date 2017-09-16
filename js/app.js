@@ -77,9 +77,9 @@ Enemy.prototype.render = function() {
 // a handleInput() method.
 
 //Player info like (position & img & playerScore & playerLives).
-var Player = function() {
-    this.x = 200;
-    this.y = 400;
+var Player = function(x , y) {
+    this.x = x ;
+    this.y = y ;
     this.playerScore = 0;
     this.playerLives = 5;
     this.sprite = 'images/char-princess-girl.png';
@@ -126,7 +126,7 @@ Player.prototype.handleInput = function(allowedKeys) {
             this.y -= 83;
         }
     }
-    //Check if it's equal to the down & if the x is less than 400
+    //Check if it's equal to the down & if the y is less than 400
     if (allowedKeys === "down" && this.y < 400) {
         this.y += 83;
     }
@@ -146,7 +146,7 @@ Player.prototype.success = function() {
 // Place the player object in a variable called player
 
 //instantiate the player
-var player = new Player();
+var player = new Player(200 , 400);
 
 // Empty allEnemies array
 var allEnemies = [];
