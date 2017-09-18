@@ -171,7 +171,7 @@ var Engine = (function(global) {
         player.characterReset();
         player.playerScore = 0;
         player.playerLives = 5;
-        bugSpeed = 40;
+        bugSpeed = 20;
 
     }
 
