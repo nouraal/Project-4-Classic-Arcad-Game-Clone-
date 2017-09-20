@@ -91,6 +91,13 @@ Player.prototype.characterReset = function() {
     this.y = 400;
 };
 
+Player.prototype.reset () {
+    this.characterReset();
+    this.playerScore = 0;
+    this.playerLives = 5;
+    bugSpeed = 20;
+};
+
 // Check if the playerLives is 0, if true we will call reset.
 Player.prototype.update = function() {
     if (this.playerLives === 0) {
