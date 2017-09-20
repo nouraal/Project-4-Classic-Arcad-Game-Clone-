@@ -9,7 +9,7 @@ You can visit [Udacity]( https://www.udacity.com/) site and register in any cour
 
 Instructions :
 
-1. go to the link in github [here.](https://github.com/nouraal/frontend-nanodegree-arcade-game-master)
+1.  visit my github [here.](https://github.com/nouraal/frontend-nanodegree-arcade-game-master)
 2. download ZIP file green button on the right of the screen,  then extract the zip file to your computer.
 3. to play the game  Double-click on " index.htm " to open the game in your browser.
 
