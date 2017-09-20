@@ -91,6 +91,7 @@ Player.prototype.characterReset = function() {
     this.y = 400;
 };
 
+//reset function it's for reset the (playerScore & playerLives & bugSpeed)
 Player.prototype.reset = function() {
     this.characterReset();
     this.playerScore = 0;
