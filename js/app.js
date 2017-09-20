@@ -91,7 +91,7 @@ Player.prototype.characterReset = function() {
     this.y = 400;
 };
 
-Player.prototype.reset () {
+Player.prototype.reset = function() {
     this.characterReset();
     this.playerScore = 0;
     this.playerLives = 5;
