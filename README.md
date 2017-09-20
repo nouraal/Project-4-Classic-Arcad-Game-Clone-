@@ -30,6 +30,6 @@ How to play the game:
 
 ===============================
 
-if you have any suggest features, ask questions or report bugs  Please communicate with me via:
+if you have any suggest features, ask questions or report bugs  Please communicate with me via
 Email: noura_alkhateeb@outlook.com
 
